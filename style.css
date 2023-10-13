@@ -1,0 +1,47 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 5em ;
+  font-weight: 200px;
+  color: red;
+  /* text-align: center; */
+}
+.buffer{
+  height:8rem;
+}
+
+
+.btn{
+  border-radius: 300px;
+  text-transform: uppercase;
+  padding: 1rem 3rem; 
+  /* margin: 3px 3px; */
+ 
+}
+
+.btn-danger{
+  background-color: rgb(195, 9, 9);
+  border-color: rgb(195, 9, 9);
+}
+.btn-danger:hover{
+  background-color:rgb(222, 68, 68);
+  border-color: rgb(222, 68, 68);
+}
+
+/* .center{
+  display: flex;
+  justify-content: center;
+} */
+
